@@ -6,7 +6,7 @@ let Validator = {
 
         let inputs = form.querySelectorAll('input')  // inputs pega todos os campos do formulário.
  
-        Validator.clearErrors();
+        Validator.clearErrors()  // Limpa erros anteriores se existirem
 
         for(let i = 0; i < inputs.length; i++) {
             let input = inputs[i]
@@ -23,7 +23,7 @@ let Validator = {
 
     },
 
-    checkInput:(input)=> {
+    checkInput:(input)=> {  // Verifica a regra de cada campo
         let rules = input.getAttribute('data-rules')
         if(rules !== null) {
             rules = rules.split('|')
