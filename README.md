@@ -11,4 +11,3 @@ Este projeto demonstra como realizar **validações personalizadas de formulári
 - Estilização de campos inválidos
 - Código limpo e reutilizável com um objeto validador
 
-## 📁 Estrutura do Projeto
